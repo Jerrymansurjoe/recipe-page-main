@@ -50,7 +50,7 @@ body {
     width: 100%;
     background-color: var(--White);
     margin: 12vh auto;
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 1rem;
 }
 
@@ -69,7 +69,7 @@ body {
 
 .section_2 h1 {
     color: var(--Dark-Charcoal);
-    margin-block: 1rem;
+    margin-block: 1.5rem;
     font-family: 'YoungSerif-Regular', sans-serif;
     font-size: 2em;
 }
@@ -82,11 +82,11 @@ p {
 .section_2 article {
     background-color: var(--Rose-White);
     padding: 1rem;
-    margin-block: 1rem;
+    margin-block: 1.5rem;
     border-radius: 1rem;
 }
 
-article .article__heading {
+article h2 {
     color: var(--Dark-Raspberry);
     font-family: 'Outfit-Medium', sans-serif;
     letter-spacing: 0.03rem;
@@ -113,13 +113,14 @@ span {
     color: var(--Dark-Charcoal);
 }
 
-h3 {
+h3, h4, h5 {
     font-family: 'YoungSerif-Regular', sans-serif;
     color: var(--Nutmeg);
+    font-size: 1.3em;
 }
 
 .section_3 ul {
-    margin-block: 1rem;
+    margin-block: 1.5rem;
     list-style-position: inside;
 }
 
@@ -142,7 +143,7 @@ hr {
 }
 
 .instr__container {
-    margin-block: 1rem;
+    margin-block: 1.5rem;
     margin-inline-start: .5rem;
 }
 
@@ -154,12 +155,12 @@ hr {
 }
 
 .instr__list .number {
-    margin-inline-end: 1rem;
+    margin-inline-end: 1.5rem;
 }
 
 .section_5 p {
     font-size: .9rem;
-    margin-block: 1rem;
+    margin-block: 1.5rem;
 }
 
 .section_5 table {
@@ -188,7 +189,7 @@ table th {
 footer .attribution {
     font-size: .8rem;
     text-align: center;
-    margin-block: 1rem;
+    margin-block: 1.5rem;
 }
 
 @media only screen and (max-width: 375px) {
